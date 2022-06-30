@@ -1,0 +1,27 @@
+<form>
+    <fieldset>
+        <legend>Formulário para a empresa X</legend>
+        <p>
+            <label for="nome_funcionario">Insira seu nome: </label>
+            <input type="text" name="nome" id="nome_funcionario">
+        </p>
+        Gênero
+        <p>
+            <input type="radio" name="masculino" id="genero_m" value="m"/>
+            <label for="genero_m">Masculino</label>
+        </p>
+        <p>
+            <input type="radio" name="feminino" id="genero_f" value="f"/>
+            <label for="genero_f">Feminino</label>
+        </p>
+        <p>
+            <label for="data_nascimento">Insira sua data de nascimento: </label>
+            <input type="date" name="data_de_nascimento" id="data_nascimento">
+        </p>
+        <p>
+            <label for="curriculo">Envie aqui seu currículo (apenas aceitamos .docx): </label> <br>
+            <input type="file" accept=".docx" name="curriculum" id="curriculo">
+        </p>
+        <input type="submit" placeholder="Enviar"> 
+    </fieldset>
+</form>
